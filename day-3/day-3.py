@@ -41,5 +41,6 @@ trees = []
 for direction in directions:
     trees.append(run_slope(terrain, direction))
 
-print(f'Output: {math.prod(trees)}')
+print(f'Part 1: {run_slope(terrain, directions[1])}')
+print(f'Part 2: {math.prod(trees)}')
 
