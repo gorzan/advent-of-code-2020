@@ -1,4 +1,3 @@
-from copy import deepcopy
 from collections import defaultdict
 adapters = open('input.txt').read().split('\n')
 adapters = [int(i) for i in adapters]
